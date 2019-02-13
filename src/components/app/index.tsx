@@ -20,22 +20,26 @@ export const App = ( props: Props ) => {
 		<header className="App-header">
 	<img src={ logo } className="App-logo" alt="logo" />
 
-                <a
+	<a
 				className="App-link"
 				href="https://reactjs.org"
-                    target="_blank"
-				rel="noopener noreferrer"
+				target="_blank"
+                    rel="noopener noreferrer"
                 >
-				{ __( 'Learn React', 'sandbox-react-redux-wordpress-i18n' ) }
-			</a>
-	<select
-	name="locale"
-	id="locale"
-	onChange={ ( e ) => setLocale( e.target.value ) }
+				{ __(
+                        'Learn React and @wordpress/i18n',
+                        'sandbox-react-redux-wordpress-i18n'
+                    ) }
+                </a>
+                <select
+				className={ 'locale-switch' }
+				name="locale"
+				id="locale"
+				onChange={ ( e ) => setLocale( e.target.value ) }
                 >
-	<option value="en">{ 'English' }</option>
-	<option value="ja">{ '日本語' }</option>
-                </select>
+				<option value="en">{ 'English' }</option>
+				<option value="ja">{ '日本語' }</option>
+			</select>
             </header>
 	</div>
     );

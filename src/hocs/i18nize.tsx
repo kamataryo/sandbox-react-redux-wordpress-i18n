@@ -23,10 +23,10 @@ const mapDispatchToProps = (dispatch: any) => ({
 
 const data = {
   'ja': {
-    'Learn React': ['React を学びましょう。']
+    'Learn React and @wordpress/i18n': ['React と @wordpress/i18n を学びましょう。']
   },
   'en': {
-    'Learn React': ['Learn React']
+    'Learn React and @wordpress/i18n': ['Learn React and @wordpress/i18n']
   }
 }
 

@@ -2,7 +2,7 @@ type i18nState = {
   locale: string;
 };
 
-const defaultLocale = "en";
+const defaultLocale = "en_US";
 
 export const initialState: i18nState = {
   locale: defaultLocale

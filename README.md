@@ -1,5 +1,14 @@
 # SANDBOX React Redux WordPress i18n
 
+## Get Started
+
+```shell
+$ git clone git@github.com:kamataryo/sandbox-react-redux-wordpress-i18n.git
+$ cd sandbox-react-redux-wordpress-i18n
+$ yarn
+$ npm run po2json # need to fix po2json first. see below.
+$ npm start
+```
 
 ## Tips
 

@@ -43,8 +43,8 @@ export const App = (props: Props) => {
           id={"locale"}
           onChange={e => setLocale(e.target.value)}
         >
-          <option value={"en"}>{"English"}</option>
-          <option value={"ja"}>{"日本語"}</option>
+          <option value={"en_US"}>{"English"}</option>
+          <option value={"ja_JP"}>{"日本語"}</option>
         </select>
       </header>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import * as i18n from "@wordpress/i18n";
 import { connect } from "react-redux";
 import { createActions } from "../store/reducers/i18n";
-import ja from '../languages/ja.json'
+import ja_JP from '../languages/ja_JP.json'
 
 
 type Props = {
@@ -25,9 +25,8 @@ const mapDispatchToProps = (dispatch: any) => ({
 const textDomain = "sandbox-react-redux-wordpress-i18n";
 
 const data: { [locale: string]: Jed | void } = {
-  ja: ja.locale_data[textDomain],
-  en: void 0,
-  default: Object.keys(ja.locale_data[textDomain]).reduce((prev, key) => ({ ...prev, [key]: [key] }), {})
+  ja_JP: ja_JP.locale_data[textDomain],
+  default: Object.keys(ja_JP.locale_data[textDomain]).reduce((prev, key) => ({ ...prev, [key]: [key] }), {})
 };
 
 export const I18nize = (Component: any) => {

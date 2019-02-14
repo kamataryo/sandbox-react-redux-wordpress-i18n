@@ -1,5 +1,8 @@
 # SANDBOX React Redux WordPress i18n
 
+
+## Tips
+
 monkey patch to fix po2json:
 
 ```javascript

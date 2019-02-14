@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/components/app/index.tsx:31
+msgid "Learn React and @wordpress/i18n."
+msgstr ""
+
+#: src/components/app/index.tsx:38
+msgid "Current locale is %s."
+msgstr ""

@@ -1,0 +1,16 @@
+{
+   "domain": "sandbox-react-redux-wordpress-i18n",
+   "locale_data": {
+      "sandbox-react-redux-wordpress-i18n": {
+         "": {
+            "domain": "sandbox-react-redux-wordpress-i18n"
+         },
+         "Learn React and @wordpress/i18n.": [
+            "React と @wordpress/i18n を学びましょう。"
+         ],
+         "Current locale is %s.": [
+            "現在のロケールは %s です。"
+         ]
+      }
+   }
+}
